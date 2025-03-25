@@ -15,7 +15,7 @@ spec:
       containers:
       - image: scgskku/scg-sso
         imagePullPolicy: Always
-        name: scg-sso
+        name: sso
         ports:
         - containerPort: 8080
         envFrom:

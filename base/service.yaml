@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: scg-sso
+  name: sso-service
 spec:
   ports:
     - port: 80
