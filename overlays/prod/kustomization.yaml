@@ -12,4 +12,4 @@ patches:
     name: sso-ingress
 images:
   - name: scgskku/scg-sso 
-    newTag: 9a7090bf56019db9dd0a4c797999eb86a52d4b87
+    newTag: 8583ab12ee68895e3399085ecb974f739b31b01e
