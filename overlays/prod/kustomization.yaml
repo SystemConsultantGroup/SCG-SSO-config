@@ -2,14 +2,14 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: scg-sso-prod
 resources:
-  - namespace.yaml
-  - secret.yaml
-  - ../../base
+- namespace.yaml
+- secret.yaml
+- ../../base
 patches:
 - path: domain.json
   target:
     kind: Ingress
     name: sso-ingress
 images:
-  - name: scgskku/scg-sso 
-    newTag: 94611a43ab90ffeee1ed986b08479f886e33f1f5
+- name: scgskku/scg-sso
+  newTag: 85a858178562a8eb60cd29a4c475dea50d75e353
